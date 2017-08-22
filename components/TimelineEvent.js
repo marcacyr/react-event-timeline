@@ -58,8 +58,8 @@ class TimelineEvent extends Component {
 }
 
 TimelineEvent.propTypes = {
-  title: PropTypes.node.isRequired,
-  createdAt: PropTypes.node.isRequired,
+  title: PropTypes.node,
+  createdAt: PropTypes.node,
   children: PropTypes.node,
   buttons: PropTypes.node,
   container: PropTypes.string,
@@ -72,11 +72,12 @@ TimelineEvent.propTypes = {
 }
 
 TimelineEvent.defaultProps = {
-  createdAt: undefined,
+  createdAt: '',
   iconStyle: {},
   contentStyle: {},
   cardHeaderStyle: {},
-  style: {}
+  style: {},
+  title: ''
 }
 
 export default TimelineEvent

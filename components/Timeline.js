@@ -6,13 +6,11 @@ class Timeline extends Component {
 
   render () {
     return (
-      <div>
         <section style={s.container} {...this.props}>
           <div style={s.containerBefore} />
           {this.props.children}
           <div style={s.containerAfter} />
-        </section >
-      </div>
+        </section>
     )
   }
 }

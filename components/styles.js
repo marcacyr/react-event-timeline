@@ -4,7 +4,7 @@ let style = {
     position: 'relative',
     fontSize: '80%',
     fontWeight: 300,
-    padding: '10px 0',
+    padding: '10px 1px',
     width: '95%',
     margin: '0 auto'
   },
@@ -15,7 +15,7 @@ let style = {
     left: 18,
     height: '100%',
     width: 2,
-    background: '#a0b2b8'
+    background: '#CCCCCC'
   },
   containerAfter: {
     content: '',
@@ -33,25 +33,26 @@ let style = {
     display: 'table'
   },
   eventType: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     position: 'absolute',
     top: 0,
     left: 0,
     borderRadius: '50%',
     width: 30,
     height: 30,
-    marginLeft: 2,
-    background: '#e9f0f5',
-    border: '2px solid #6fba1c'
+    marginLeft: 3,
+    background: '#FFF',
+    border: '1px solid #CCCCCC'
   },
   materialIcons: {
-    display: 'block',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     width: 32,
     height: 32,
-    position: 'relative',
-    left: '50%',
-    top: '50%',
-    marginLeft: -8,
-    marginTop: -8
+    position: 'relative'
   },
   eventContainer: {
     position: 'relative'
