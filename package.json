@@ -24,10 +24,6 @@
     "commit": "git cz",
     "deploy-storybook": "storybook-to-ghpages"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rcdexta/react-event-timeline.git"
-  },
   "keywords": [
     "react",
     "timeline",
@@ -35,10 +31,6 @@
   ],
   "author": "RC",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rcdexta/react-event-timeline/issues"
-  },
-  "homepage": "https://github.com/rcdexta/react-event-timeline",
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.4.0",
     "@kadira/storybook": "^2.35.3",
