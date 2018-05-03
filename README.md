@@ -1,14 +1,6 @@
-# react-event-timeline
+# rl-react-event-timeline
 
 A react component to generate a responsive event-timeline
-
-[![npm version](https://badge.fury.io/js/react-event-timeline.svg)](https://badge.fury.io/js/react-event-timeline)
-[![Build Status](https://travis-ci.org/rcdexta/react-event-timeline.svg?branch=master)](https://travis-ci.org/rcdexta/react-event-timeline)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/rcdexta/react-event-timeline/blob/master/LICENSE.md)
-
-![alt tag](https://github.com/rcdexta/react-event-timeline/raw/master/timeline.png)
-
-See the storybook demo here: https://rcdexta.github.io/react-event-timeline
 
 ## Features
 
@@ -18,12 +10,12 @@ See the storybook demo here: https://rcdexta.github.io/react-event-timeline
 ## Getting started
 
 ```
-npm install --save react-event-timeline
+npm install --save rl-react-event-timeline
 ```
 or if you are using `yarn`
 
 ```
-yarn add react-event-timeline
+yarn add rl-react-event-timeline
 ```
 
 ## Usage
@@ -110,9 +102,9 @@ This project recommends using [react-storybook](https://github.com/kadirahq/reac
 4. `yarn build`: transpile all ES6 component files into ES5(commonjs) and put it in `dist` directory
 5. `yarn docs`: create static build of storybook in `docs` directory that can be used for github pages
 
-The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
+The storybook artifacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes live reloaded on the browser
 
-Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository. 
+Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and then `npm run semantic-release` to automate deployment and publishing to npm repository.
 
 ## License
 
