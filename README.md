@@ -108,4 +108,4 @@ Also use [semantic-release](https://github.com/semantic-release/semantic-release
 
 ## License
 
-MIT
+MIT © RedLock

@@ -1,8 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2016 Marc Cyr
-
-Copyright for portions of project rl-react-event-timeline are held by RC (sindresorhus.com) as part of project react-event-timeline. All other copyrights for project rl-react-event-timeline are held by Marc Cyr, 2018.
+Copyright (c) 2018 RedLock
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
