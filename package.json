@@ -29,8 +29,12 @@
     "timeline",
     "notification"
   ],
-  "author": "RC",
+  "author": {
+      "name": "Marc Cyr",
+      "email": "marc.cyr@me.com"
+  },
   "license": "MIT",
+  "repository": "marcacyr/react-event-timeline",
   "devDependencies": {
     "@kadira/react-storybook-addon-info": "^3.4.0",
     "@kadira/storybook": "^2.35.3",
